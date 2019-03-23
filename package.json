@@ -1,0 +1,29 @@
+{
+  "name": "rjr",
+  "version": "1.0.0",
+  "description": "A collection of educational resources about React, GraphQL and Relay",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon ./server.js localhost 4000",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauabe/rjr.git"
+  },
+  "author": "Mauricio Feldman-Abe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauabe/rjr/issues"
+  },
+  "homepage": "https://github.com/mauabe/rjr#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "express": "^4.16.4",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
