@@ -20,12 +20,14 @@
   },
   "homepage": "https://github.com/mauabe/rjr#readme",
   "dependencies": {
+    "acorn": "^7.1.1",
     "babel": "^6.23.0",
     "express": "^4.16.4",
     "lodash": "^4.17.15",
+    "minimist": "^1.2.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "serialize-javascript": "^2.1.2"
+    "serialize-javascript": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -36,7 +38,7 @@
     "braces": "^3.0.2",
     "css-loader": "^2.1.1",
     "mixin-deep": "^2.0.1",
-    "nodemon": "^1.18.10",
+    "nodemon": "^2.0.2",
     "set-value": "^3.0.1",
     "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^2.1.2",
